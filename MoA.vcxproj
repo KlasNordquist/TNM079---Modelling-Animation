@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A202BE6-A7DE-3409-B9C7-61EA1A8D9A97}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MoA</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxbase28d.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28d_core.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28d_gl.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxpngd.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxtiffd.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxjpegd.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxzlibd.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxregexd.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/Debug/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/Debug/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/Release/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/Release/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/MinSizeRel/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/MinSizeRel/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\glew\include;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\VC++\glm;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\.\Util\stb;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_static.lib;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/RelWithDebInfo/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/bin/RelWithDebInfo/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master" "-BC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld" --check-stamp-file "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCXXCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeRCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeSystem.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\CMake\FindwxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Fluid\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master" "-BC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld" --check-stamp-file "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCXXCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeRCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeSystem.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\CMake\FindwxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Fluid\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master" "-BC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld" --check-stamp-file "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCXXCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeRCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeSystem.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\CMake\FindwxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Fluid\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master" "-BC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld" --check-stamp-file "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeCXXCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeRCCompiler.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\3.26.0-rc1\CMakeSystem.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\CMake\FindwxWidgets.cmake;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Fluid\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\CMakeLists.txt;C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\DecimationInterface.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\DecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\DecimationMesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\QuadricDecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\QuadricDecimationMesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\SimpleDecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Decimation\SimpleDecimationMesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Fluid\FluidSolver.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Fluid\FluidSolver.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Geometry.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\HalfEdgeMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\HalfEdgeMesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Mesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Mesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\SimpleMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\SimpleMesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\LineStrip.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\LineStrip.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Bbox.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\CSG.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Cube.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Cube.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Implicit.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Implicit.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\ImplicitGradientField.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\ImplicitMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\ImplicitMesh.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\ImplicitValueField.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Quadric.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Quadric.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\SignedDistanceSphere.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\SignedDistanceSphere.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Sphere.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\Sphere.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\SphereFractal.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Geometry\SphereFractal.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\FrameMain.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\FrameMain.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLAxis.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLAxis.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLCamera.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLGridPlane.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLGridPlane.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLObject.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLObject.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLViewer.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GLViewer.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GUI.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\GUI.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\ScalarCutPlane.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\ScalarCutPlane.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\VectorCutPlane.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\VectorCutPlane.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\FluidVoxelCutPlane.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\GUI\FluidVoxelCutPlane.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\LevelSet.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\LevelSet.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\LevelSetGrid.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\LevelSetGrid.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\LevelSetOperator.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\LevelSetOperator.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\OperatorAdvect.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\OperatorDilateErode.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\OperatorMeanCurvatureFlow.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\OperatorMorph.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Levelset\OperatorReinitialize.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\ConjugateGradient.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\ConstantVectorField.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\Function3D.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\TrilinearInterpolator.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\TrilinearInterpolator.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\Volume.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Math\VortexVectorField.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\AdaptiveLoopSubdivisionMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\AdaptiveLoopSubdivisionMesh.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\LoopSubdivisionMesh.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\LoopSubdivisionMesh.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\StrangeSubdivisionMesh.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\Subdivision.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\UniformCubicSpline.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\UniformCubicSpline.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\UniformCubicSplineSubdivisionCurve.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Subdivision\UniformCubicSplineSubdivisionCurve.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\BitMask3D.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\BlackWhiteColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\BlackWhiteColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\ColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\ColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\ColorMapFactory.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\ColorMapFactory.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\GLObjectPlayback.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\GLObjectPlayback.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\GrayColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\GrayColorMap.cpp" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\GreenRedColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\GreenRedColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Heap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Heap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\HotColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\HotColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\HSVColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\HSVColorMap.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Image.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Image_Impl.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\IsoContourColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\IsoContourColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\JetColorMap.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\JetColorMap.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\MarchingCubes.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\MarchingCubes.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\MarchingCubesTable.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\ObjIO.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\ObjIO.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Stopwatch.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\trackball.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\trackball.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Util.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Util.h" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\stb\stb_image_write.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Console.cpp" />
+    <ClInclude Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\Util\Console.h" />
+    <ClCompile Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\tnm079-code-master\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\ZERO_CHECK.vcxproj">
+      <Project>{40331643-4A94-36D7-A1DC-83E4C62D8A58}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

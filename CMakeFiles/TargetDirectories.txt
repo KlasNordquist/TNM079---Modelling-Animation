@@ -1,0 +1,3 @@
+C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/MoA.dir
+C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/ALL_BUILD.dir
+C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/ZERO_CHECK.dir

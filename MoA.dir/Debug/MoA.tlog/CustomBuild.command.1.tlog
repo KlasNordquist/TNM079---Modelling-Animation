@@ -1,0 +1,10 @@
+^C:\USERS\KLASN\DESKTOP\LIU\VT2024\TNM079 - MODELLING AND ANIMATION\TNM079-LABSOLD\TNM079-CODE-MASTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/tnm079-code-master" "-BC:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld" --check-stamp-file "C:/Users/klasn/Desktop/LIU/VT2024/TNM079 - Modelling and Animation/tnm079-labsOld/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\klasn\Desktop\LIU\VT2024\TNM079 - Modelling and Animation\tnm079-labsOld\CMakeFiles\7a50433f397be9faf961c140105de3c2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2B0DF79B-168A-3901-9984-FCC175CAC23E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
